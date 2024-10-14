@@ -1,0 +1,74 @@
+h1 {
+    text-align: center; /* Centre le texte horizontalement */
+    font-family: Arial, sans-serif; /* Choix de la police */
+    font-size: 3rem; /* Taille de la police (ajustez selon vos besoins) */
+    color: red; /* Couleur du texte (ici, gris foncé) */
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; 
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;  
+  }
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #f0f0f0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center; 
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+
+}
+
+main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 250px;
+}
